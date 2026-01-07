@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNI紹介資料：山本 真利 | 観光土産・体験コンテンツ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .copy-success {
+            animation: fadeInOut 2s ease-in-out;
+        }
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            20%, 80% { opacity: 1; }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-800 pb-20">
+
+    <!-- Header / Hero -->
+    <header class="bg-gradient-to-r from-red-800 to-red-600 text-white py-12 px-6 shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center border-4 border-red-200 overflow-hidden shadow-inner">
+                    <i data-lucide="user" class="w-16 h-16 text-red-800"></i>
+                </div>
+                <div class="text-center md:text-left">
+                    <p class="text-red-100 text-sm font-bold tracking-widest mb-2">BNI Kyoto Central Region | Breakthrough Chapter</p>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2">山本 真利</h1>
+                    <p class="text-lg text-red-100 italic mb-4">Masatoshi Yamamoto</p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">観光土産物販売</span>
+                        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">体験コンテンツ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-10 space-y-8">
+        
+        <!-- Quick Profile Card -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-4">
+                <h2 class="text-xl font-bold border-l-4 border-red-600 pl-3 flex items-center gap-2 text-slate-700">
+                    <i data-lucide="briefcase" class="w-5 h-5"></i> 基本情報
+                </h2>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex gap-3"><span class="text-slate-400 w-24 shrink-0 font-medium">カテゴリー</span><span class="font-semibold">観光土産物販売・体験コンテンツ</span></li>
+                    <li class="flex gap-3"><span class="text-slate-400 w-24 shrink-0 font-medium">チャプター</span><span class="font-semibold text-red-700">ブレイクスルー</span></li>
+                    <li class="flex gap-3"><span class="text-slate-400 w-24 shrink-0 font-medium">拠点</span><span class="font-semibold flex items-center gap-1"><i data-lucide="map-pin" class="w-3.5 h-3.5"></i> 京都市（北野天満宮そば）</span></li>
+                </ul>
+            </div>
+            <div class="bg-red-50 rounded-xl p-5 border border-red-100">
+                <h3 class="text-red-800 font-bold mb-3 flex items-center gap-2">
+                    <i data-lucide="smile" class="w-4 h-4"></i> Closing Word
+                </h3>
+                <p class="text-slate-700 italic text-sm leading-relaxed font-medium">
+                    「京都で、ちょっと笑えて、ちゃんと縁起のいい観光体験をやっている方がいるのですが、一度お話ししてみませんか？」
+                </p>
+            </div>
+        </section>
+
+        <!-- Business Contents -->
+        <section class="space-y-4">
+            <h2 class="text-2xl font-bold text-slate-800 px-2 flex items-center gap-3">
+                <i data-lucide="shopping-bag" class="text-red-600"></i> 事業内容
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-red-700 mb-2">観光土産店運営</h3>
+                    <p class="text-slate-600 leading-relaxed">京都・北野天満宮そばにて。観光客に寄り添う店舗経営。</p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-red-700 mb-2">すべらない御守り</h3>
+                    <p class="text-slate-600 leading-relaxed">受験生向け。ゴム製すべり止めを活かした独自企画商品。</p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-red-700 mb-2">伝統・観光商品</h3>
+                    <p class="text-slate-600 leading-relaxed">こけし、忍者グッズ、ミニ屏風など多彩なラインナップ。</p>
+                </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="font-bold text-red-700 mb-2">匂い袋づくり体験</h3>
+                    <p class="text-slate-600 leading-relaxed">「作る・参加する」を通じた新しい京都観光の価値提供。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- USP Section -->
+        <section class="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-2xl p-8 relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 text-red-400">
+                    <i data-lucide="lightbulb"></i> Unique Selling Proposition
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="space-y-2">
+                        <div class="bg-white/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4"><i data-lucide="palette" class="text-red-400"></i></div>
+                        <h4 class="font-bold text-sm">縁起 × 笑い × 体験</h4>
+                        <p class="text-[11px] text-slate-400">真面目なテーマに関西らしいユーモアを掛け合わせた独自性</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="bg-white/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4"><i data-lucide="map-pin" class="text-red-400"></i></div>
+                        <h4 class="font-bold text-sm">北野天満宮至近の立地</h4>
+                        <p class="text-[11px] text-slate-400">学業成就・合格祈願に特化した最強のコンテンツ環境</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="bg-white/10 w-10 h-10 rounded-lg flex items-center justify-center mb-4"><i data-lucide="smile" class="text-red-400"></i></div>
+                        <h4 class="font-bold text-sm">滞在価値の最大化</h4>
+                        <p class="text-[11px] text-slate-400">物販だけで終わらせない、記憶に残るストーリーを提供</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referral Section -->
+        <section class="space-y-4">
+            <h2 class="text-2xl font-bold text-slate-800 flex items-center gap-3 px-2">
+                <i data-lucide="target" class="text-red-600"></i> BEST Referrals
+            </h2>
+            <div class="space-y-3">
+                <div class="flex flex-col md:flex-row bg-white border border-slate-100 rounded-xl overflow-hidden shadow-sm">
+                    <div class="bg-red-600 text-white px-6 py-4 md:w-32 flex items-center justify-center font-bold">BEST 1</div>
+                    <div class="p-4 flex-grow"><h4 class="font-bold mb-1">旅行代理店・ツアー幹事様</h4><p class="text-xs text-slate-500">団体旅行、修学旅行、社員旅行のコンテンツを探している方</p></div>
+                </div>
+                <div class="flex flex-col md:flex-row bg-white border border-slate-100 rounded-xl overflow-hidden shadow-sm">
+                    <div class="bg-red-600 text-white px-6 py-4 md:w-32 flex items-center justify-center font-bold">BEST 2</div>
+                    <div class="p-4 flex-grow"><h4 class="font-bold mb-1">ツアープランナー様</h4><p class="text-xs text-slate-500">体験型コンテンツ、京都独自のネタを探している専門家</p></div>
+                </div>
+                <div class="flex flex-col md:flex-row bg-white border border-slate-100 rounded-xl overflow-hidden shadow-sm">
+                    <div class="bg-red-600 text-white px-6 py-4 md:w-32 flex items-center justify-center font-bold">BEST 3</div>
+                    <div class="p-4 flex-grow"><h4 class="font-bold mb-1">インバウンド事業者様</h4><p class="text-xs text-slate-500">訪日客向けに日本文化（忍者・和の体験）を紹介したい方</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Template -->
+        <section class="bg-red-50 rounded-2xl p-6 md:p-10 border border-red-100 text-center">
+            <h2 class="text-xl font-bold text-red-900 mb-6 flex items-center justify-center gap-2">
+                <i data-lucide="message-circle"></i> 紹介用テンプレート
+            </h2>
+            <div id="copy-target" class="bg-white p-6 rounded-xl border border-red-200 text-slate-600 text-sm leading-relaxed text-left mb-6 font-mono">
+                私の知人に、京都・北野天満宮のそばで観光土産と体験型コンテンツを手がけている 山本 真利さんという方がいます。<br><br>
+                受験生向けの「すべらない御守り」や、団体向けの匂い袋づくり体験など、少し変わった切り口で京都観光の価値を作っている方です。<br><br>
+                ○○さんのお仕事とも相性が良さそうだと思い、ご紹介できればと思いました。 もしご興味があれば、おつなぎしますがいかがでしょうか？
+            </div>
+            <button onclick="copyText()" class="bg-red-600 text-white px-8 py-3 rounded-full font-bold hover:bg-red-700 transition-all flex items-center gap-2 mx-auto shadow-md">
+                <i data-lucide="copy" class="w-5 h-5"></i> テキストをコピーする
+            </button>
+            <p id="copy-msg" class="text-green-600 font-bold mt-3 opacity-0 text-sm">コピーしました！</p>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-10 text-slate-400 text-[10px]">
+        <p>&copy; 2024 Masatoshi Yamamoto | BNI Profile Page</p>
+    </footer>
+
+    <script>
+        // Lucideアイコンの初期化
+        lucide.createIcons();
+
+        // コピー機能
+        function copyText() {
+            const text = `私の知人に、京都・北野天満宮のそばで観光土産と体験型コンテンツを手がけている 山本 真利さんという方がいます。
+受験生向けの「すべらない御守り」や、団体向けの匂い袋づくり体験など、少し変わった切り口で京都観光の価値を作っている方です。
+○○さんのお仕事とも相性が良さそうだと思い、ご紹介できればと思いました。
+もしご興味があれば、おつなぎしますがいかがでしょうか？`;
+            
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            const msg = document.getElementById('copy-msg');
+            msg.style.opacity = '1';
+            setTimeout(() => { msg.style.opacity = '0'; }, 2000);
+        }
+    </script>
+</body>
+</html>
